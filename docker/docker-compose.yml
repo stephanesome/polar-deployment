@@ -4,7 +4,7 @@ services:
     depends_on:
       - polar-postgres
     image: "catalog-service"
-    container_name: "catalog-service"
+    container_name: "catalog-servicexxx"
     ports:
       - "9001:9001"
     environment:
